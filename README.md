@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+Worker Safety Monitoring Dashboard
+Overview
+The Worker Safety Monitoring Dashboard is a web application designed to monitor worker safety and real-time locations. Given the lack of a real-time data source or device for collecting live data, this application relies on static data from a JSON file to simulate worker locations, statuses, and alerts on a map interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+ Technologies Used
+ Features
+ Installation
+ Usage
+ Static Data Simulation
 
-## Available Scripts
+Technologies Used
+  Frontend: React with Next.js, TypeScript
+  CSS Framework: Tailwind CSS
+  Map Integration: ArcGIS API for JavaScript
+  Static Data: JSON file for worker information and status simulation
+  
+Features
+ Authentication:Login form with validation and "forgot password" flow ,"Remember me" functionality
+ Dashboard Layout:Responsive layout with a collapsible sidebar and real-time clock
+ Map Integration:Displays worker locations using ArcGIS with 2D/3D map views basemaps ,Markers for different worker statuses (Connected, Disconnected, Suspicious, etc.)
+ Worker List:Searchable and filterable list of workers ,Real-time status updates simulated from JSON data
+ Alert System:Static notifications for alerts ,Details of each alert, including location and alert history
 
-In the project directory, you can run:
+Installation
+ Clone the Repository
+ git clone https://github.com/Hana1e/worker-safety.git
+ cd worker-safety-monitoring-dashboard
+ Install Dependencies
+ npm install
+ Run the Development Server
+ npm run dev
+ 
+ Usage
+  Authenticate: Log in using the login form, which includes a "forgot password" feature if needed.
 
-### `npm start`
+  Dashboard Access:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  Map: View worker locations in real time on an ArcGIS map. The map offers both 2D and 3D views and displays markers that indicate each worker's status, such as "Connected," 
+   "Disconnected," "Suspicious," or "In Danger." The markers help identify workers in need of immediate assistance.
+  Worker List: Browse a searchable and filterable list of workers, organized by their current status.
+  Alerts: Receive simulated alerts (from the JSON file), showing the type of alert, location, and timestamp, allowing for quick identification of critical situations.
+  Static Data Simulation :Due to the absence of a real-time data collection device or service, the application simulates worker data using a static JSON file (workers.json). This file 
+   includes: Worker Details: Such as ID, name, contact info, and location coordinates.
+             Status: Indicates the current state of the worker (e.g., Connected, Disconnected, Suspicious, In Danger).
+             Alerts: Provides alert information, including type (e.g., Suspicious Movement, Emergency), description, and timestamp.
+   Using static data allows the application to simulate real-time worker status and alert tracking functionality, providing a realistic overview of how the application would function 
+   with live data.
