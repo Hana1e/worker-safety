@@ -1,0 +1,145 @@
+{
+    "workers": [
+      {
+        "id": 1,
+        "name": "Worker1",
+        "phone": "+212 612-345678",
+        "location": {
+          "latitude": 35.780861,
+          "longitude": -5.832697,
+          "address": "Rue de Fès, Tanger, Maroc"
+        },
+        "status": "Connected",
+        "lastUpdated": "2024-11-03T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Worker2",
+        "phone": "+212 612-987654",
+        "location": {
+          "latitude": 35.774504,
+          "longitude": -5.821581,
+          "address": "Avenue Moulay Ismail, Tanger, Maroc"
+        },
+        "status": "Disconnected",
+        "lastUpdated": "2024-11-03T10:05:00Z"
+      },
+      {
+        "id": 3,
+        "name": "Worker3",
+        "phone": "+212 612-876543",
+        "location": {
+          "latitude": 35.765420,
+          "longitude": -5.803828,
+          "address": "Boulevard Pasteur, Tanger, Maroc"
+        },
+        "status": "Suspicious",
+        "lastUpdated": "2024-11-03T10:10:00Z",
+        "alert": {
+          "type": "Suspicious Movement",
+          "details": "Unusual movement pattern detected",
+          "timestamp": "2024-11-03T10:10:30Z"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Worker4",
+        "phone": "+212 612-234567",
+        "location": {
+          "latitude": 35.773350,
+          "longitude": -5.807563,
+          "address": "Rue d'Italie, Tanger, Maroc"
+        },
+        "status": "In Danger",
+        "lastUpdated": "2024-11-03T10:15:00Z",
+        "alert": {
+          "type": "Emergency",
+          "details": "Worker reported as in danger",
+          "timestamp": "2024-11-03T10:15:30Z"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Worker5",
+        "phone": "+212 612-123456",
+        "location": {
+          "latitude": 35.769531,
+          "longitude": -5.833343,
+          "address": "Place de France, Tanger, Maroc"
+        },
+        "status": "Connected",
+        "lastUpdated": "2024-11-03T10:20:00Z"
+      },
+      {
+        "id": 6,
+        "name": "Worker6",
+        "phone": "+212 612-555555",
+        "location": {
+          "latitude": 35.778128,
+          "longitude": -5.834394,
+          "address": "Rue Ibn Khaldoun, Tanger, Maroc"
+        },
+        "status": "Connected",
+        "lastUpdated": "2024-11-03T10:25:00Z"
+      },
+      {
+        "id": 7,
+        "name": "Worker7",
+        "phone": "+212 612-666666",
+        "location": {
+          "latitude": 35.781451,
+          "longitude": -5.828765,
+          "address": "Avenue Mohammed V, Tanger, Maroc"
+        },
+        "status": "Disconnected",
+        "lastUpdated": "2024-11-03T10:30:00Z"
+      },
+      {
+        "id": 8,
+        "name": "Worker8",
+        "phone": "+212 612-777777",
+        "location": {
+          "latitude": 35.767876,
+          "longitude": -5.830302,
+          "address": "Rue Abou Jarir Tabari, Tanger, Maroc"
+        },
+        "status": "Suspicious",
+        "lastUpdated": "2024-11-03T10:35:00Z",
+        "alert": {
+          "type": "Suspicious Movement",
+          "details": "Potential unauthorized area detected",
+          "timestamp": "2024-11-03T10:35:30Z"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Worker9",
+        "phone": "+212 612-888888",
+        "location": {
+          "latitude": 35.764982,
+          "longitude": -5.829003,
+          "address": "Place de la Kasbah, Tanger, Maroc"
+        },
+        "status": "Suspicious",
+        "lastUpdated": "2024-11-03T10:40:00Z",
+        "alert": {
+          "type": "Emergency",
+          "details": "Critical alert issued",
+          "timestamp": "2024-11-03T10:40:30Z"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Worker10",
+        "phone": "+212 612-999999",
+        "location": {
+          "latitude": 35.776210,
+          "longitude": -5.827345,
+          "address": "Rue des Siaghins, Tanger, Maroc"
+        },
+        "status": "Connected",
+        "lastUpdated": "2024-11-03T10:45:00Z"
+      }
+    ]
+  }
+  
